@@ -6,8 +6,6 @@ import { userLogin, userSignin } from '../../apiCall/user'
 import { useNavigate } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import { setAdmin } from '../../redux/adminSlice'
-import { async } from 'utilities'
-
 
 const navigation = [
   { name: 'Dashboard', href: '#', current: true },
